@@ -1,16 +1,26 @@
-# React + Vite
+TradutorTailWind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação web simples e moderna de tradução de textos, desenvolvida com React e TailwindCSS v4, utilizando a API gratuita do MyMemory Translated
+ para realizar traduções entre diversos idiomas.
+🚀 Tecnologias utilizadas
 
-Currently, two official plugins are available:
+React (Vite) — para a interface e componentização
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TailwindCSS v4 — para o estilo moderno e responsivo
 
-## React Compiler
+MyMemory API — para as traduções em tempo real
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Funcionalidades
 
-## Expanding the ESLint configuration
+Tradução de texto entre diferentes idiomas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Interface leve, responsiva e intuitiva
+
+Atualização instantânea dos resultados
+
+Design minimalista com cores personalizadas via Tailwind
+
+🌍 API utilizada
+
+As traduções são obtidas da API pública MyMemory:
+📄 https://mymemory.translated.net
